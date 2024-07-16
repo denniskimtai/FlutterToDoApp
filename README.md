@@ -1,16 +1,22 @@
-# todo_app
+# TODO APP
 
-A new Flutter project.
+This Flutter project is a simple ToDo app that allows users to manage their tasks. Users can create new tasks, mark tasks as completed or incomplete, and delete tasks.
+
+## Features
+- **Create new task** - Add new tasks.
+- **Update a task** - Mark tasks as completed or incomplete.
+- **Delete a task** - Remove tasks when they are no longer needed.
+- **Data persistence** - Uses Hive for local data storage, ensuring tasks are saved even when the app is closed.
+
+## Screenshot
+
+## Technologies used
+- **Flutter**: Framework for building cross-platform mobile applications.
+- **Hive**: Lightweight and fast NoSQL database for local data storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone the repository `git clone https://github.com/denniskimtai/FlutterToDoApp.git`
+- Navigate into the project directory `cd FlutterToDoApp`
+- Install dependencies `flutter pub get`
+- Run the app `flutter run`
